@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css">
+    <title>Higher or Lower</title>
+</head>
+<body>
+  <header>
+    <a href="" ><img class="back"src="./images/backarrow.png"> Back to Games Room</a>
+  </header>
+
+  <div class="content">
+    <h1 id="title">Higher or Lower</h2>
+    
+    <h2>Guess which country has a higher population.</h2>
+    <button id="modal-btn"> How to Play </button>
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <p>
+          Player start by clicking the start button.
+          <br>
+          Player will then be presented with a question regarding 2 countries' population.
+          <br>
+          Player must guess if the first country has a higher or lower population than the second country.
+          <br>
+          If you player answers correctly, they get a point.
+          <br>
+          There will be 6 rounds and the player should aim to get 6 out of 6 correctly. 
+        </p>
+      </div>
+    </div>
+
+    <div class="score">
+      <p id="compScore">Round : 0</p>
+      <p id="playerScore">Player Score : 0</p>
+    </div> 
+
+    <div class="questionArea">
+      <p id="question">question</p>
+    </div> 
+
+    <div class="playArea">
+      <div class="resultsArea">
+        <button id="startBtn"> Start Game</button>
+        <p id="results">ff</p>
+      </div>
+    </div>
+
+    <div id="pickAnswer">
+      <button id="higherBtn"> Higher </button>
+      <button id="lowerBtn"> Lower </button>
+    </div>
+    <br>
+    <div class="next">
+      <button id="nextBtn"> Next question </button>
+    </div>
+    <br>
+    <button id="reset"> Reset Game</button>
+  </div>
+
+  <footer>
+    <div class="info">
+      <span class="copyright">© 2022  Gilbert Choi, All Rights Reserved</span>
+    </div>
+  </footer>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>

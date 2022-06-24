@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css">
+    <title>Rock Paper Scissor</title>
+</head>
+<body>
+  <header>
+    <a href="" ><img class="back"src="./images/backarrow.png"> Back to Games Room</a>
+  </header>
+
+  <div class="content">
+    <h1 id="title">Rock Paper Scissors</h2>
+    
+    <h2>Beat the computer 10 times to win ! </h2>
+    <button id="modal-btn"> How to Play </button>
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <p>
+          Players start each round by picking between rock, paper or scissors. The computer will pick one of the 3 randomly. 
+          <br>
+          Rock crushes scissors, scissors cut paper, and paper covers rock. Beat the computer each round to increase your score!
+          <br>
+          First to 10 wins. The game will automatically reset when one side wins. 
+        </p>
+      </div>
+    </div>
+
+    <div class="score">
+      <p id="playerScore">Player Score : 0</p>
+      <p id="compScore">Computer Score : 0</p>
+    </div> 
+
+    <div class="playArea">
+      <div id="player1">
+        <img id="player1Image" src="./images/zTX5a8zac.gif">
+        <p id="player1Choice"> </p>
+        
+      </div>
+      
+      <p id="results"> Pick a hand to start</p>
+      
+      <div id="player2">
+        <img id="player2Image" src="./images/zTX5a8zac.gif">
+        <p id="player2Choice"> </p>
+        
+      </div>
+      
+    </div>
+
+    <div class="pickHand">
+      <button id="rockBtn"> Rock </button>
+      <button id="paperBtn"> Paper </button>
+      <button id="scissorsBtn"> Scissors </button>
+    </div>
+    <br>
+    <button id="reset"> Reset Game</button>
+  </div>
+
+  <footer>
+    <div class="info">
+      <span class="copyright">© 2022  Gilbert Choi, All Rights Reserved</span>
+    </div>
+  </footer>
+
+
+  <script>
+   
+    
+  </script>
+  <script src="./app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+    
+}
+
+header {
+    text-align: right;
+    display: block;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.logo{
+    float:left;
+    display: inline-block;
+    height: 50px;
+    padding-left: 10px;
+}
+.Navigation{
+    text-align: right;
+    padding-left: 10px;
+    text-decoration: underline;
+    display: inline-block
+}
+
+.Mission{
+    margin: auto;
+    margin-top: 69px;
+    width: 1200px;
+    height: 700px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-position-x: center;
+
+}
+.Words {
+    background-color: black;
+    margin-top: 325px;
+    line-height: 5px;
+    width: 1200px;
+    position:absolute;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5{
+    color: seashell;
+}
+
+.Teamonth{
+    text-align: center;
+}
+.Tealist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.Teas{
+    flex-direction: column;
+    text-align: center;
+}
+
+.TeaPhoto{
+    height: 200px;
+    width: 300px;   
+}
+
+.Locations {
+    text-align: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.Locations h2{
+    margin-top: 50px;
+}
+.Squares{
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 40px;
+    width: 300px;
+    text-align: center;
+    background-color: black;
+}
+
+.Contact{
+    height: 200px;
+    text-align: center;
+}
+
+footer{
+    text-align: left;
+}
+
+footer h3{
+    padding-left: 20px;
+}

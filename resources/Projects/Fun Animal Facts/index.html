@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <h1 id="changeMe">Click an animal for a random fun fact !</h1>
+      <div class="animals">
+        <img  id="dolphin" class='animal' src="./images/dolphin.jpg" onclick="dolphinFunction()">
+        <img  id="lobster" class="animal" src="./images/lobster.jpg" onclick="lobsterFunction()">
+        <img  id="starfish" class='animal' src="./images/starfish.jpg" onclick="starfishFunction()">
+      </div>
+      <h2 id="facts"></h2>
+    </div>
+    <div class="footer">
+      <p>A Small Project by Gilbert Choi</p>
+    </div>
+    
+    
+	  <script>
+      const dolphinFacts = ['Dolphins have been shown to give distinct names to each other!', 'Dolphins are known to display their own culture!', 'Dolphins have two stomachs!'];
+      const lobsterFacts = ['Lobsters taste with their legs!', 'Lobsters chew with their stomachs!', 'Lobsters can live as long as 100 years.'];
+      const starfishFacts = ['Starfish can have up to 40 arms!', 'Starfish have no brain and no blood!', 'Starfish can regenerate their own arms!'];
+
+      function dolphinFunction() {
+        const optionIndex = Math.floor(Math.random()*dolphinFacts.length);
+        document.getElementById("facts").innerHTML = dolphinFacts[optionIndex];
+      };
+      
+      function lobsterFunction(){
+        const optionIndex = Math.floor(Math.random()*lobsterFacts.length);
+        document.getElementById("facts").innerHTML = lobsterFacts[optionIndex];
+      };
+
+      function starfishFunction(){
+        const optionIndex = Math.floor(Math.random()*starfishFacts.length);
+        document.getElementById("facts").innerHTML = starfishFacts[optionIndex];
+      };
+    </script>
+  </body>
+</html>

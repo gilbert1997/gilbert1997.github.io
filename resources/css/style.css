@@ -129,7 +129,7 @@ header .mobile {
   }
 }
 
-/* Sign Up Section */
+/* Intro Section previously the sign up section*/
 
 #sign-up-section {
   display: flex;
@@ -291,7 +291,7 @@ header .mobile {
 
 
 
-/* Features Section */
+/* Feature Me Section */
 
 #features-section {
   display: flex;
@@ -382,7 +382,7 @@ header .mobile {
   }
 }
 
-/* Filters Section */
+/* Projects Filter Section */
 
 #filters-section {
   padding: 4rem 0;
@@ -464,7 +464,7 @@ header .mobile {
   }
 }
 
-/* Quotes Section */
+/* Goodbye Quotes Section */
 
 #quotes-section {
   background-color: #f3f3f3;

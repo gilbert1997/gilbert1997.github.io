@@ -75,7 +75,7 @@ nav a {
 
 nav .button {
   padding: .1875rem .5rem;
-  background-color: #9dc20b;
+  background-color: white;
   line-height: 1.6;
   color: white;
 }
@@ -100,6 +100,9 @@ header .mobile {
 
   header .content {
     padding: 1rem 1rem;
+  }
+  nav a {
+    font-size: 0.8rem;
   }
 }
 
@@ -129,7 +132,7 @@ header .mobile {
   }
 }
 
-/* Intro Section previously the sign up section*/
+/* Sign Up Section */
 
 #sign-up-section {
   display: flex;
@@ -145,11 +148,11 @@ header .mobile {
 
 #sign-up-cta {
   position: relative;
-  top: 171px;
+  top: 35%;
   left: 16%;
   padding: 0 5rem 2.5rem 5rem;
   /*border: solid 1px #979797;*/
-  border-radius: 45px;
+  border-radius: 10%;
   background-color: lightslategray;
 }
 
@@ -200,19 +203,23 @@ header .mobile {
   #sign-up-section {
     align-items: center;
     justify-content: center;
+    background-position: 50% 50%;
     height: 28rem;
   }
 
   #sign-up-cta {
-    position: static;
+    position: relative;
     width: auto;
-    height: auto;
-    background-color: transparent;
-    border: none;
+    padding: 0 2.5rem 1.25rem 2.5rem;
+    height: 5rem;
+    background-color: lightslategray;
+    top: 0%;
+    left: 5.5%;
   }
 
   #sign-up-cta .content {
-    margin-top: 0;
+    margin-top: 1rem;
+    width: auto;
   }
 
   #sign-up-cta .email {
@@ -220,78 +227,54 @@ header .mobile {
   }
 
   #sign-up-cta h1 {
-    font-size: 3.125rem;
+    font-size: 2rem;
   }
 
   #sign-up-cta h2 {
-    font-size: 2.25rem;
+    font-size: 1rem;
+  }
+
+  #sign-up-cta h3 {
+    font-size: 1rem;
+  }
+
+  #sign-up-cta h4 {
+    display: none;
   }
 }
 
-.arrows {
-  z-index: 3;
-	width: 60px;
-	height: 72px;
-	position: static;
-	margin-top: 40rem;
-}
 
-.arrows path {
-	stroke: #2994D1;
-	fill: transparent;
-	stroke-width: 1px;	
-	animation: arrow 2s infinite;
-	-webkit-animation: arrow 2s infinite; 
-}
-
-@keyframes arrow
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
-}
-
-@-webkit-keyframes arrow /*Safari and Chrome*/
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
-}
-
-.arrows path.a1 {
-	animation-delay:-1s;
-	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
-}
-
-.arrows path.a2 {
-	animation-delay:-0.5s;
-	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
-}
-
-.arrows path.a3 {	
-	animation-delay:0s;
-	-webkit-animation-delay:0s; /* Safari 和 Chrome */
-}
 
 @media only screen and (max-width: 600px) {
   #sign-up-section {
     height: 20rem;
   }
+  #sign-up-cta {
+    width: 10rem;
+    height: 5rem;
+  }
 
   #sign-up-cta h1 {
-    font-size: 2.25rem;
+    font-size: 1.25rem;
   }
 
   #sign-up-cta h2 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
+
+  #sign-up-cta h3 {
+    font-size: 1rem;
+  }
+
+  #sign-up-cta h4 {
+    display: none;
+  }
+
 }
 
 
 
-/* Feature Me Section */
+/* Features Section */
 
 #features-section {
   display: flex;
@@ -382,7 +365,7 @@ header .mobile {
   }
 }
 
-/* Projects Filter Section */
+/* Filters Section */
 
 #filters-section {
   padding: 4rem 0;
@@ -464,7 +447,7 @@ header .mobile {
   }
 }
 
-/* Goodbye Quotes Section */
+/* Quotes Section */
 
 #quotes-section {
   background-color: #f3f3f3;

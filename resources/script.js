@@ -15,7 +15,7 @@
     ShopPic.addEventListener("mouseout",shopFunction2);
 
     function shopFunction(){
-      document.getElementById("myShop").innerHTML = "A React App intergrating Spotify API ";
+      document.getElementById("myShop").innerHTML = "A React App intergrating Spotify API (requires Spotify logged In to work)";
     }
 
     function shopFunction2(){

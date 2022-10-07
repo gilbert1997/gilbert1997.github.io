@@ -15,11 +15,11 @@
     ShopPic.addEventListener("mouseout",shopFunction2);
 
     function shopFunction(){
-      document.getElementById("myShop").innerHTML = "My first project playing around with a bit of JavaScript on top of HTML & CSS !";
+      document.getElementById("myShop").innerHTML = "A React App intergrating Spotify API ";
     }
 
     function shopFunction2(){
-      document.getElementById("myShop").innerHTML = "My Arts & Crafts Shop";
+      document.getElementById("myShop").innerHTML = "React Music App";
     }
 
     const AnimalPic = document.getElementById('animalPic');
